@@ -5,7 +5,7 @@
 
 # Redesign OpenCat website
 ## Preview
-- **Demo at: https://opencat.xatloon.me/**
+- **Demo at: https://opencat.xatloon.com/**
 
 - [PageSpeed Insights Report from Oct 12, 2023, 1:26:07 PM](https://pagespeed.web.dev/analysis/https-opencat-xatloon-me/xor94klsju?form_factor=mobile)
 
