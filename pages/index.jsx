@@ -81,7 +81,7 @@ export default function Home() {
 
         <div className='flex flex-col justify-center'>
           <div className='flex'>
-            <a className='flex justify-center m-1' href="https://apps.apple.com/app/id6445999201" target="_blank">
+            <a className='flex justify-center m-1' href="https://opencat.app" target="_blank">
               <button
                 className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 md:hover:-translate-y-1 transition duration-500 ease-in-out transform">
               <span className='text-xl flex items-center gap-2'>
@@ -93,7 +93,7 @@ export default function Home() {
               </button>
             </a>
 
-            <a className='flex justify-center m-1' href="/releases/OpenCat-2.1.2.424.dmg" target="_blank">
+            <a className='flex justify-center m-1' href="https://opencat.app" target="_blank">
               <button
                 className="bg-black dark:bg-white text-center text-white dark:text-black rounded-2xl p-5 md:hover:-translate-y-1 transition duration-500 ease-in-out transform">
                 <span className='text-xl flex items-center gap-2'>Download for
@@ -179,10 +179,10 @@ export default function Home() {
           <Card title="Privacy Policy" description="We don't collect any private data." link="/privacy" />
         </div>
         <div className='w-full max-w-7xl mx-auto gap-6 flex flex-col sm:hidden'>
-          <Card title="FAQ 常见问题" description="OpenCat 最常见的问题" link="/docs/zh-CN/faq" />
-          <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="/docs/zh-CN/help" />
+          <Card title="FAQ 常见问题" description="OpenCat 最常见的问题" link="https://opencat.app/docs/zh-CN/faq" />
+          <Card title="帮助文档" description="查看 OpenCat 的帮助文档" link="https://opencat.app/docs/zh-CN/help" />
           {/*<Card title={['OpenAI API', 'Azure OpenAI API', 'Claude API']} description={['Create your API Key on OpenAI Platform to use our app', 'Create your API Key on Azure OpenAI Platform to use our app', 'Create your API Key on Claude Platform to use our app']} link={['https://platform.openai.com/account/api-keys', 'https://azure.microsoft.com/en-us/products/ai-services/openai-service', 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api']} />*/}
-          <Card title="Privacy Policy" description="We don't collect any private data" link="/privacy" />
+          <Card title="Privacy Policy" description="We don't collect any private data" link="https://opencat.app/privacy" />
         </div>
       </aside>
 
